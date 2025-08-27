@@ -1,13 +1,14 @@
 import React from "react";
 
 function Header() {
-    return(
+    return (
         <header>
             <nav>
-                <a href="#about">Sobre</a>
-                <a href="#projects">Pojetos</a>
-                <a href="#contact">Contato</a>
-                
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
             </nav>
         </header>
     );
